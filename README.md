@@ -15,13 +15,13 @@ to this kind of structure:
 foo.bar.baz = true
 ```
 
-Usage:
-
+## Usage
 ```
+go mod tidy
 go run yamlflatten.go example.yaml
 
 # example:
-go run yamlflatten.go example.yaml| grep 'enabled = true'
+go run yamlflatten.go example.yaml | grep 'enabled = true'
 kubelet.enabled = true
 coreDns.enabled = true
 kubeStateMetrics.enabled = true
