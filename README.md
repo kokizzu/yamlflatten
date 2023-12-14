@@ -1,6 +1,8 @@
 
 # YAML Flatten
 
+similar to [yamlsort](//github.com/kokizzu/yamlsort), this one flattens everything, but doesn't sort it (you can use normal `sort` utility for that).
+
 converts this kind of structure:
 
 ```yaml
